@@ -1,4 +1,4 @@
-pub fn run() {
+pub fn _run() {
     // 1. Variables and Immutability -->
     let mut value = 6;
     println!("The value of x is: {}", value);

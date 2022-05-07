@@ -1,6 +1,6 @@
 // TODO: Come back for this, later
 
-pub fn run() {
+pub fn _run() {
     println!("Hello, world!");
 
     another_function(-126);

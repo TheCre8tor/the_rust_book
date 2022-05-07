@@ -1,4 +1,4 @@
-pub fn run() {
+pub fn _run() {
     // TODO: I Will Revisit this section later
     /* In Rust there are two types of dat type
        subsets: Scalar and Compound */
