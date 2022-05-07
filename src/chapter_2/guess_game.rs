@@ -57,7 +57,7 @@ pub fn run() {
             Err(_) => {
                 println!("🤠 We expect number only!");
                 continue;
-            },
+            }
         };
 
         println!("You guessed: {}", guess);

@@ -7,11 +7,10 @@ pub fn _run() {
 }
 
 fn another_function(x: i32) {
-   println!("Another function, with parameter of: {}", x);
+    println!("Another function, with parameter of: {}", x);
 }
 
 /* Statements & Expression */
 
-/* Statement are instructions that perform 
-   some action and do not return a value */
-   
+/* Statement are instructions that perform
+some action and do not return a value */
