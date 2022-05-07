@@ -26,4 +26,32 @@ pub fn control() {
     let assign_number: u8 = if condition {10} else {12};
 
     println!("The value of assign_number is: {}", assign_number);
+
+    // 4. Repitition with loops
+    let mut count = 0;
+
+    // The 'counting_up is a label
+    'counting_up: loop {
+        println!("count = {}", count);
+
+        let mut remaining: u8 = 10;
+
+        loop {
+            println!("remaining = {}", remaining);
+
+            if remaining == 9 {
+                break;
+            }
+
+            if count == 5 {
+                break 'counting_up;
+            }
+
+            remaining -= 1;
+        }
+
+        count += 1;
+    }
+
+    println!("End count = {}", count);
 }
