@@ -73,12 +73,29 @@ pub fn control() {
         }
     };
 
-    println!("The result is {result}")
+    println!("The result is {result}");
 
     /* NOTE: One of the uses of a [loop] is to retry an 
        operation you know might fail, such as checking 
        whether a thread has completed its job. */
 
     // SECTION  6. Conditional Loops with [while]
-    
+    print!("\n");
+
+    let mut while_loop: u8 = 3;
+
+    while while_loop != 0 {
+        println!("{}!", while_loop);
+
+        while_loop -= 1;
+    }
+
+    println!("LIFTOFF!!!");
+
+    /* NOTE: [while] construct eliminates a lot of nesting 
+       that would be necessary if you used [loop, if, else, 
+       and break], and it’s clearer. While a condition 
+       holds true, the code runs; otherwise, it exits the 
+       loop. */
+ 
 }
