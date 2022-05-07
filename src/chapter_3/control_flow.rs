@@ -1,5 +1,5 @@
 pub fn control() {
-    // 1. if Expressions
+    // SECTION  1. if Expressions
 
     let number: u8 = 14;
 
@@ -9,7 +9,7 @@ pub fn control() {
         println!("condition is false");
     }
 
-    // 2. Handing Multiple Conditions with else if
+    // SECTION  2. Handing Multiple Conditions with else if
 
     if number % 4 == 0 {
         println!("number is divisible by 4");
@@ -21,13 +21,13 @@ pub fn control() {
         println!("number is not divisible by 4, 3, or 2");
     }
 
-    // 3. Using if in a let statement
+    // SECTION  3. Using if in a let statement
     let condition = true;
     let assign_number: u8 = if condition {10} else {12};
 
     println!("The value of assign_number is: {}", assign_number);
 
-    // 4. Repitition with loops
+    // SECTION  4. Repitition with loops
     let mut count = 0;
 
     // The 'counting_up is a label
@@ -43,7 +43,7 @@ pub fn control() {
                 break;
             }
 
-            if count == 5 {
+            if count == 3 {
                 break 'counting_up;
             }
 
@@ -54,4 +54,6 @@ pub fn control() {
     }
 
     println!("End count = {}", count);
+
+    // SECTION  5. Returning value from loops
 }
