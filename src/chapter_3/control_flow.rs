@@ -79,5 +79,6 @@ pub fn control() {
        operation you know might fail, such as checking 
        whether a thread has completed its job. */
 
+    // SECTION  6. Conditional Loops with [while]
     
 }
