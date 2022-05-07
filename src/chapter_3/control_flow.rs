@@ -1,5 +1,5 @@
 pub fn control() {
-    // if Expressions
+    // 1. if Expressions
 
     let number: u8 = 14;
 
@@ -9,7 +9,7 @@ pub fn control() {
         println!("condition is false");
     }
 
-    // Handing Multiple Conditions with else if
+    // 2. Handing Multiple Conditions with else if
 
     if number % 4 == 0 {
         println!("number is divisible by 4");
@@ -20,4 +20,10 @@ pub fn control() {
     } else {
         println!("number is not divisible by 4, 3, or 2");
     }
+
+    // 3. Using if in a let statement
+    let condition = true;
+    let assign_number: u8 = if condition {10} else {12};
+
+    println!("The value of assign_number is: {}", assign_number);
 }
