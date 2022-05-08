@@ -20,6 +20,9 @@ pub fn run() {
 
     println!("User Data: {:#?}", user);
     println!("User1 Data: {:#?}", user1);
+
+    // SECTION  2. Using Turple Structs without Named Fields to Create Different data_types
+    
 }
 
 fn build_user(email: String, username: String) -> User {
