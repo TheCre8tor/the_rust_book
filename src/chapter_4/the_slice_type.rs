@@ -6,8 +6,8 @@ pub fn run() {
     println!("First word is: {}", result);
 
     // SECTION  2. String Slices
-    /* A string slice is a reference to part of a String, 
-       and it looks like this: */
+    /* A string slice is a reference to part of a String,
+    and it looks like this: */
 
     let string = String::from("Hello world! ");
 

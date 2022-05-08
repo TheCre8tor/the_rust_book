@@ -1,4 +1,3 @@
-
 #[path = "./the_string_type.rs"]
 mod the_string_type;
 
@@ -77,5 +76,4 @@ pub fn _owner() {
     are valid is similar to that in other programming languages.*/
 
     the_string_type::_run();
-    
 }

@@ -9,11 +9,12 @@ pub fn run() {
     println!("The length of '{}' is {}", s1, len);
 
     /* NOTE: you can have only one mutable reference to a
-       particular piece of data at a time in a scope. */
+    particular piece of data at a time in a scope. */
 
     let mut muta = String::new();
 
-    { // New Scope ->
+    {
+        // New Scope ->
         let _r3 = &mut muta.push_str("scoped ");
     }
 
@@ -21,7 +22,7 @@ pub fn run() {
     // let r2 = &mut muta; // -> Borrowing mutable reference twice will cause an error
 
     let h = &muta;
-    
+
     println!("Result: {}", muta);
     println!("Let's be straight with {}", muta);
     println!("{}", h);
