@@ -1,4 +1,4 @@
-pub fn control() {
+pub fn _control() {
     // SECTION  1. if Expressions
 
     let number: u8 = 14;

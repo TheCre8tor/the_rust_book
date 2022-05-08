@@ -1,4 +1,4 @@
-pub fn run() {
+pub fn _run() {
     // This is on Stack, and cannot be mutated ->
     let mut _unmute = "This &str cannot be mutated.";
 

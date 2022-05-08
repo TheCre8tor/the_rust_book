@@ -1,7 +1,7 @@
 #[path ="./the_string_type.rs"]
 mod the_string_type;
 
-pub fn owner() {
+pub fn _owner() {
     println!("This is ownership");
 
     /* SECTION  1. What is ownership:
@@ -75,5 +75,5 @@ pub fn owner() {
        At this point, the relationship between scopes and when variables 
        are valid is similar to that in other programming languages.*/
 
-    the_string_type::run();
+    the_string_type::_run();
 }
