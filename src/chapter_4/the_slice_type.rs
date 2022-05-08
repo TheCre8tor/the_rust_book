@@ -19,7 +19,7 @@ pub fn run() {
     // SECTION  3. String Literals Are Slices
 }
 
-fn first_world(stra: &String) -> &str {
+fn first_world(stra: &str) -> &str {
     let word = stra.as_bytes();
 
     for (idx, &item) in word.iter().enumerate() {
