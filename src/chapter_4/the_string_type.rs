@@ -1,3 +1,5 @@
+
+
 pub fn _run() {
     // This is on Stack, and cannot be mutated ->
     let mut _unmute = "This &str cannot be mutated.";
@@ -31,4 +33,6 @@ pub fn _run() {
     * The second part is different. Rust takes a different path: the memory is
     * automatically returned once the variable that owns it goes out of scope.
      */
+
+
 }

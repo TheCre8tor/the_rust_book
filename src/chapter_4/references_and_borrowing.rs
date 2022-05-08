@@ -1,3 +1,6 @@
+#[path = "./the_slice_type.rs"]
+mod the_slice;
+
 pub fn run() {
     let s1 = String::from("hello");
 
@@ -22,6 +25,8 @@ pub fn run() {
     println!("Result: {}", muta);
     println!("Let's be straight with {}", muta);
     println!("{}", h);
+
+    the_slice::run();
 }
 
 fn calculate_length(s: &String) -> usize {
