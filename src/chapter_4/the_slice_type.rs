@@ -15,6 +15,8 @@ pub fn run() {
     let world = &string[6..12];
 
     println!("First Slice: {}, Second Slice:{}", hello, world);
+
+    // SECTION  3. String Literals Are Slices
 }
 
 fn first_world(stra: &String) -> &str {
