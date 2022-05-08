@@ -1,5 +1,10 @@
+use std::path;
+
 #[path = "./the_string_type.rs"]
 mod the_string_type;
+
+#[path = "./the_slice_type.rs"]
+mod the_slice;
 
 pub fn _owner() {
     println!("This is ownership");
@@ -76,4 +81,5 @@ pub fn _owner() {
     are valid is similar to that in other programming languages.*/
 
     the_string_type::_run();
+    the_slice::run();
 }
