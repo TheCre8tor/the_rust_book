@@ -127,15 +127,5 @@ pub fn control() {
         for item in boxes {
             println!("the value is: {}", item);
         }
-
-        // I reversed the items in the box
-        print!("\n");
-
-        let boxes = boxes.iter().rev();
-
-        for item in boxes {
-            println!("{}", item)
-        }
-
     }
 }

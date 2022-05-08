@@ -11,7 +11,7 @@ interested in other functionality in the rand crate, for
 example, run cargo doc --open and click rand in the sidebar
 on the left. */
 
-pub fn run() {
+pub fn _run() {
     println!("Guessing the number!");
 
     let secret_number = rand::thread_rng().gen_range(1..=10);

@@ -3,10 +3,10 @@
 pub fn _run() {
     println!("Hello, world!");
 
-    another_function(-126);
+   //  another_function(-126);
 }
 
-fn another_function(x: i32) {
+fn _another_function(x: i32) {
     println!("Another function, with parameter of: {}", x);
 }
 
