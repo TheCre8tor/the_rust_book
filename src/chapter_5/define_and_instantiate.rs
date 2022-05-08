@@ -1,6 +1,9 @@
 #[path = "./structs_example.rs"]
 mod struct_by_example;
 
+#[path = "./method_syntax.rs"]
+mod method_syntax;
+
 #[derive(Debug)]
 struct User {
     active: bool,
@@ -24,9 +27,11 @@ pub fn run() {
     println!("User Data: {:#?}", user);
     println!("User1 Data: {:#?}", user1);
 
-    // SECTION  2. An Example Program Using Structs
+    // SECTION  2. An Example Program Using Structs ->
     struct_by_example::run();
 
+    // SECTION  3. Method Syntax ->
+    method_syntax::run();
 }
 
 fn build_user(email: String, username: String) -> User {
