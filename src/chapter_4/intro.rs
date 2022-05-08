@@ -1,4 +1,4 @@
-#[path ="./the_string_type.rs"]
+#[path = "./the_string_type.rs"]
 mod the_string_type;
 
 pub fn _owner() {
@@ -64,16 +64,16 @@ pub fn _owner() {
         // do stuff with s
     } // this scope is now over, and "s" is no longer valid
 
-    /* The variable is valid from the point at which it’s declared until 
-       the end of the current scope.
-       
-       In other words, there are two important points in time here:
+    /* The variable is valid from the point at which it’s declared until
+    the end of the current scope.
 
-       1. When s comes into scope, it is valid.
-       2. It remains valid until it goes out of scope.
+    In other words, there are two important points in time here:
 
-       At this point, the relationship between scopes and when variables 
-       are valid is similar to that in other programming languages.*/
+    1. When s comes into scope, it is valid.
+    2. It remains valid until it goes out of scope.
+
+    At this point, the relationship between scopes and when variables
+    are valid is similar to that in other programming languages.*/
 
     the_string_type::_run();
 }
