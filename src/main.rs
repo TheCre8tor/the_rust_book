@@ -13,5 +13,6 @@ fn main() {
     // chapter_4::intro::owner();
     // chapter_4::references_and_borrowing::run();
     // chapter_5::define_and_instantiate::run();
-    chapter_6::defining_an_enum::run();
+    // chapter_6::defining_an_enum::run();
+    chapter_6::match_control_flow::run();
 }
