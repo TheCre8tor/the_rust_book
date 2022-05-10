@@ -25,6 +25,11 @@ pub fn run() {
     println!("With value: [{:?}], Without Value: [{:?}]", six, none);
     println!("Extracted Data: {}", extract);
 
+    // SECTION  3.Catch-all Patterns and the _ Placeholder
+    let dice_roll = 9;
+
+    dice(dice_roll);
+
 }
 
 fn value_in_cents(coin: Coin) -> u8 {
@@ -55,4 +60,21 @@ fn extract_data(data: Option<i16>) -> i16 {
         None => 0,
         Some(value) => value
     }
+}
+
+// SECTION  3.Catch-all Patterns and the _ Placeholder
+fn dice(rolls: u8) {
+    match rolls {
+        3 => add_fancy_har(),
+        7 => remove_fancy_hat(),
+        other => move_player(other),
+    }
+} 
+
+fn add_fancy_har() {}
+
+fn remove_fancy_hat() {}
+
+fn move_player(num_spaces: u8) {
+    println!("Moving {} spaces forward.", num_spaces);
 }
