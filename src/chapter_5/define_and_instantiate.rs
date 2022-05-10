@@ -20,7 +20,10 @@ pub fn run() {
         sign_in_count: 1,
     };
 
-    let user1 = build_user(String::from("someone@example.com"), String::from("someuser1234"));
+    let user1 = build_user(
+        String::from("someone@example.com"),
+        String::from("someuser1234"),
+    );
 
     user.sign_in_count = 2;
 
